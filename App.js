@@ -13,3 +13,14 @@ export default function Home() {
     </div>
   );
 }
+
+const styles = {
+  container: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    padding: '20px',
+    backgroundColor: '#f5f5f5',
+  },
+};
